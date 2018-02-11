@@ -1,0 +1,428 @@
+@font-face {
+  font-family: 'SpaceMono';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Space Mono Bold'), local('SpaceMono-Bold'), url(https://fonts.gstatic.com/s/spacemono/v2/vdpMRWfyjfCvDYTz00NEPIWiMMZ7xLd792ULpGE4W_Y.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+h1{
+  height: 64px;
+  color: black;
+  font-size: 32px;
+  font-family: SpaceMono;
+  display: flex;
+  align-items: center;
+}
+body{
+  border-left: solid #e6e6e6 2px;
+  border-right: solid #e6e6e6 2px;
+  font-family: Helvetica;
+}
+
+#logo{
+  height: 55px;
+  margin-left: 24px;
+}
+#Academy{
+  color: grey;
+}
+
+#navigation{
+  font-size: 16px;
+  position: absolute;
+  right: 24px;
+  color: black;
+}
+
+.nav{
+  text-decoration: none;
+  color: grey;
+  margin-left: 16px;
+  font-size: 28px;
+}
+#campuspeople{
+  padding: 32px 24px;
+  width: 58%;
+}
+button{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 90%;
+  background-color: #4d4d4d;
+  color: white;
+  height: 50px;
+  font-size: 16px;
+}
+
+.campus{
+  background-color: #e6e6e6;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+h2{
+  width: 80%%;
+  font-size: 70px;
+  max-height:140px;
+  margin-bottom: 32px;
+  color: #666666;
+  font-weight: bold;
+}
+#Lorem{
+  font-size: 34px;
+  width: 80%;
+  color: grey;
+  font-weight: bold;
+  padding-bottom: 32px;
+}
+.righttext{
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  padding-left: 40px;
+}
+.leftcolumn{
+  padding: 32px 24px 32px 24px;
+  max-width: 58%;
+  display: flex;
+  flex-wrap: wrap;
+}
+h3{
+  color: black;
+  font-size: 48px;
+  font-weight: bold;
+  max-height: 50px;
+  margin-bottom: 24px;
+}
+.online{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.onlineright{
+  max-width: 36%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 24px;
+  padding-top: 32px;
+  border-left: solid #e6e6e6 2px;
+  border-right: solid #e6e6e6 2px;
+
+}
+.orientationday{
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.orientationday.top{
+  border-bottom: solid #e6e6e6 2px;
+  padding-bottom: 2px;
+}
+.orientationday.mid{
+  border-top: solid #e6e6e6 2px;
+  padding-top: 2px;
+}
+.campuspeople{
+  height: auto;
+  width: 35%;
+  padding: 16px 16px 16px 16px;
+
+}
+h4{
+  font-size: 40px;
+  color: #666666;
+  width: 100%;
+  height: 30px;
+  padding: 8px 0px;
+  margin: 0px;
+}
+.par{
+  font-size: 26px;
+  max-height: 30px;
+  width: 100%;
+  margin: 0px;
+  padding: 8px 0px;
+}
+#guestlecture{
+  background-color:#e6e6e6;
+}
+.learning{
+  flex-wrap: wrap;
+  display: flex;
+  background-color: #e6e6e6;
+  justify-content: center;
+}
+
+.learningstructure{
+  flex-wrap: wrap;
+  display: flex;
+  width: 30%;
+}
+.text{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  align-items: : center;
+}
+.textbelow{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#learningtitle{
+  width: 100%;
+  padding: 32px 0px;
+  margin: 0px;
+  font-size: 64px;
+  max-height: 128px;
+  font-weight: bold;
+  color: #666666;
+  text-align: center;
+}
+
+.subtitle {
+  width: 100%;
+  max-height: 48px;
+}
+
+h5{
+  width: 100%;
+  font-size: 26px;
+  color: #666666;
+  margin: 0px;
+  padding: 8px 0px;
+
+}
+
+#ThesisExibit{
+  width: 100%;
+  margin: 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 64px;
+  font-weight: bold;
+  color: #666666;
+  text-align: center;
+
+}
+.thesis{
+  flex-wrap: wrap;
+  display: flex;
+  border-bottom: solid 1px #e6e6e6;
+}
+#vid{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:-5%;
+}
+video{
+  width: 95%;
+  max-height: 700px;
+}
+
+#thesisright{
+  width: 37%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 24px;
+  margin-top: 32px;
+
+}
+.exibitright{
+ display: flex;
+}
+.above{
+  background-color: #e6e6e6;
+}
+.imagetext{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+.thesistitle{
+  width: 100%;
+}
+.read{
+  text-decoration: none;
+  font-size: 26px;
+  padding: 8px 0px;
+}
+#guyreading{
+  width: 100%;
+  height: 490px;
+}
+.quote{
+  font-size: 24px;
+  font-style:italic;
+  padding-bottom: 32px;
+}
+#editor{
+  font-size: 20px;
+}
+.learning_text{
+background-color: white;
+padding:0px 16px 24px 16px;
+margin-bottom: 32px;
+width: 88%;
+display:flex;
+flex-wrap: wrap;
+}
+.subtitle{
+  width: 100%;
+  margin: 0px;
+  padding: 16px 0px;
+  color: #666666;
+}
+
+.descript{
+  width: 100%;
+  font-size: 26px;
+  margin: 0px;
+  padding: 8px 0px;
+  color: #666666;
+}
+.learningimage{
+  margin:0px;
+  width: 88%;
+}
+.learning_text{
+  max-height: 195px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.imagetext{
+  display:flex;
+  flex-wrap: wrap;
+  align-items:center;
+  padding-left: 16px;
+}
+.thestext{
+  font-size: 28px;
+  margin: 0px;
+}
+
+footer{
+  padding-top:16px;
+  margin-bottom: 32px;
+  padding-left: 24px;
+  font-size: 22px;
+  color: #666666;
+}
+#trunc{
+  display: none;
+}
+.learning-trunc{
+  display: none;
+}
+
+@media only screen and (max-width: 560px) {
+  .learningstructure, #vidtext, #terms, #thesisright, #fullhead,#onlinesection,#navigation {
+    display:none;
+  }
+  #trunc{
+    display:block;
+    position: absolute;
+    right: 24px;
+    color: black;
+  }
+  h1{
+    height: 64px;
+  }
+  #campuspeople{
+    width:100%;
+    padding:0px;
+  }
+  h2{
+    font-size:56px;
+    padding: 32px 0px;
+    margin: 0px;
+  }
+  .righttext{
+    width: 100%;
+    padding-left:16px;
+  }
+  #Lorem{
+    margin:0px;
+    padding-bottom: 24px;
+    font-size: 2.2rem;
+    width: 100%;
+  }
+  button{
+    margin-bottom: 24px;
+  }
+  .onlineright{
+    max-width: 100%;
+    border: none;
+    margin: 0px;
+  }
+  .orientationday{
+    width:100%;
+    justify-content: left;
+  }
+  .campuspeople{
+    width:100%;
+    padding:16px;
+    max-height:350px;
+  }
+  h4{
+    width:100%;
+    font-size: 2.2rem;
+  }
+  .text{
+    padding-left: 32px;
+  }
+  .par{
+    padding-bottom:16px;
+    max-height: 100px;
+  }
+  .read{
+    margin-bottom: 64px;
+  }
+  #guestlecture{
+    background-color: white;
+  }
+  .learning{
+    flex-direction: column;
+    background-color: white;
+  }
+  .learning-trunc{
+    display: block;
+    font-size: 36px;
+    color: #666666;
+    background-color: #e6e6e6;
+    padding: 16px 0px 24px 16px;
+    margin:0px 16px 8px 16px;
+  }
+  #learningtitle{
+    padding-bottom: 16px;
+  }
+  #marketing{
+    margin-bottom: 32px;
+  }
+  video{
+    width: 100%;
+    max-height: 350px;
+    margin-bottom: 24px;
+  }
+  #vidsection{
+    max-width:100%;
+  }
+
+
+  .leftcolumn{
+    width:100%;
+  }
+  footer{
+    padding-top: 16px;
+  }
+  .thesis{
+    border-bottom: none;
+  }
+  body{
+    border-bottom: solid #e6e6e6 2px;
+  }
+}
